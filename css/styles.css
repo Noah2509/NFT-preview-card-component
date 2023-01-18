@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  font-family: outfit;
+  height: 100vh;
+  justify-content: center;
+}
+
+.container {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  padding: 20px;
+  width: 20%;
+}
+
+.container-img {
+  border-radius: 10px;
+  height: auto;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.14rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: hsl(215, 51%, 70%);
+  font-size: 0.9375rem;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.eth-container {
+  align-items: center;
+  display: flex;
+  gap: 37%;
+  margin-bottom: 20px;
+}
+
+.eth-value {
+  align-items: center;
+  color: hsl(178, 100%, 50%);
+  display: flex;
+  font-size: 0.8rem;
+  font-weight: 400;
+  gap: 8px;
+}
+
+.time-span {
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+  display: flex;
+  font-size: 0.8rem;
+  font-weight: 300;
+  gap: 8px;
+}
+
+hr {
+  color: hsl(215, 32%, 27%);
+  border-top: 1px solid hsl(215, 32%, 27%);
+  border-bottom: 0;
+  margin-bottom: 15px;
+}
+
+.creator {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+
+.creator-img {
+  width: 8%;
+  height: 22px;
+  border: 1.3px solid #fff;
+  border-radius: 100%;
+}
+
+.creator-name {
+  color: hsl(215, 51%, 70%);
+  font-size: 0.8rem;
+}
+
+span {
+  color: hsl(0, 0%, 100%);
+}
+
+/* mobile design */
+
+@media (max-width: 570px) {
+  .container {
+    width: 65%;
+  }
+}
